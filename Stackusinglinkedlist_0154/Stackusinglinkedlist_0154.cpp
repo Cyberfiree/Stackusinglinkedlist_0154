@@ -92,4 +92,13 @@ int main()
                 cout << "Stack kosong. Tidak bisa melakukan pop." << endl;
             }
             break;
+
+        case 3:
+            if (!stack.isEmpty()) {
+                stack.peek();   // Mendapatkan nilai elemen teratas
+            }
+            else {
+                cout << "Stack kosong. Tidak ada nilai teratas." << endl;
+            }
+            break;
 }
