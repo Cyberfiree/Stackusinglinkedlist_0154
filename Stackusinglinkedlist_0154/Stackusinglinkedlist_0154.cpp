@@ -83,4 +83,13 @@ int main()
             cin >> value;
             stack.push(value);  // Memanggil operasi push untuk menambahkan nilai ke stack
             break;
+
+        case 2:
+            if (!stack.isEmpty()) {
+                stack.pop();    // Memanggil operasi pop untuk menghapus elemen teratas dari stack
+            }
+            else {
+                cout << "Stack kosong. Tidak bisa melakukan pop." << endl;
+            }
+            break;
 }
