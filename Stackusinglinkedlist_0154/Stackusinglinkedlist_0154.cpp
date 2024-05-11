@@ -40,6 +40,7 @@ public:
         }
 
         cout << "Nilai yang di-pop :" << top->data << endl; // Mencetak nilai yang di-pop dari stack
+        top = top->next;        // Memperbarui pointer top ke node selanjutnya
     }
 
 
