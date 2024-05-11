@@ -16,7 +16,7 @@ public:
 // Kelas stack
 class Stack {
 private:
-
+    Node* top;      // Pointer ke node teratas dari stack
 public:
 };
 
