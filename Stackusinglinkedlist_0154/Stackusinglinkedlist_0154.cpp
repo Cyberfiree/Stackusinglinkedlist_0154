@@ -6,6 +6,11 @@ class Node {
 public:
     int data;
     Node* next;
+
+    // Konstruktor untuk Node, menginisialisasi pointer next dengan NULL
+    Node() {
+        next = NULL;
+    }
 };
 
 int main()
