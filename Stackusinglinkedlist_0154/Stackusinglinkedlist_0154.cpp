@@ -22,6 +22,10 @@ public:
     Stack() {
         top = NULL;    // Konstruktor untuk Stack, menginisialisasi top dengan NULL saat pembuatan stack baru
     }
+
+    // Operasi push: Memasukkan elemen ke atas stack
+    int push(int value) {
+    }
 };
 
 int main()
