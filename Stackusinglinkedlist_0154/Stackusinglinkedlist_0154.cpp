@@ -76,4 +76,11 @@ int main()
         cout << "3. peek\n";
         cout << "4. exit\n";
         cin >> choice;
+
+        switch (choice) {
+        case 1:
+            cout << "Masukkan nilai untuk di-push:";
+            cin >> value;
+            stack.push(value);  // Memanggil operasi push untuk menambahkan nilai ke stack
+            break;
 }
