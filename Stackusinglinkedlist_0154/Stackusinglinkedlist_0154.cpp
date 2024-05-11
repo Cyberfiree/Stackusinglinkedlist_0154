@@ -13,6 +13,13 @@ public:
     }
 };
 
+// Kelas stack
+class Stack {
+private:
+
+public:
+};
+
 int main()
 {
 }
