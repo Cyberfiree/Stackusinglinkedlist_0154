@@ -29,6 +29,7 @@ public:
         newNode->data = value;      // 2. Mengisi nilai data pada node baru
         newNode->next = top;        // 3. Menetapkan pointer next dari node baru ke node top saat ini
         top = newNode;              // 4. Memperbarui pointer top menjadi node baru
+        cout << "Push value :" << value << endl; // Mencetak nilai yang dipush ke stack
     }
 };
 
