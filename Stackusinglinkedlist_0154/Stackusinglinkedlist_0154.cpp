@@ -101,4 +101,17 @@ int main()
                 cout << "Stack kosong. Tidak ada nilai teratas." << endl;
             }
             break;
+
+        case 4:
+            cout << "Keluar dari program." << endl;
+            break;
+
+        default:
+            cout << "Pilihan tidak valid. Coba lagi." << endl;
+            break;
+        }
+
+        cout << endl;
+    }
+    return 0;
 }
