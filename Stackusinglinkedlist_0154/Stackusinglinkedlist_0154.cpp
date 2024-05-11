@@ -38,6 +38,8 @@ public:
         if (isEmpty()) {
             cout << "Stack kosong." << endl;
         }
+
+        cout << "Nilai yang di-pop :" << top->data << endl; // Mencetak nilai yang di-pop dari stack
     }
 
 
