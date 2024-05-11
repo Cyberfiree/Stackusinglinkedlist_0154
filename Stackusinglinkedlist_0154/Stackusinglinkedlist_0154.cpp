@@ -27,6 +27,7 @@ public:
     int push(int value) {
         Node* newNode = new Node(); // 1. Mengalokasikan memori untuk node baru
         newNode->data = value;      // 2. Mengisi nilai data pada node baru
+        newNode->next = top;        // 3. Menetapkan pointer next dari node baru ke node top saat ini
     }
 };
 
