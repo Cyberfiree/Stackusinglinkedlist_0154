@@ -43,6 +43,21 @@ public:
         top = top->next;        // Memperbarui pointer top ke node selanjutnya
     }
 
+    // Operasi peek/Top: Mengambil nilai elemen teratas tanpa menghapusnya
+    void peek() {
+        if (top == NULL) {
+            cout << "Stack kosong." << endl;
+        }
+        else {
+            Node* current = top;
+            while (current != NULL) {
+                cout << current->data << " " << endl; // Mencetak nilai dari setiap elemen dalam stack
+                current = current->next;
+            }
+            cout << endl;
+        }
+    }
+
 
 };
 
