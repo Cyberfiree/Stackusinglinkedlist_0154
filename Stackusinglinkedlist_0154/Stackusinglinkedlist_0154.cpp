@@ -17,7 +17,11 @@ public:
 class Stack {
 private:
     Node* top;      // Pointer ke node teratas dari stack
+
 public:
+    Stack() {
+        top = NULL;    // Konstruktor untuk Stack, menginisialisasi top dengan NULL saat pembuatan stack baru
+    }
 };
 
 int main()
