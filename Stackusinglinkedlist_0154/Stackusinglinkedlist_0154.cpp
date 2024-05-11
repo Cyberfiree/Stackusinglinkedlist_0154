@@ -25,6 +25,7 @@ public:
 
     // Operasi push: Memasukkan elemen ke atas stack
     int push(int value) {
+        Node* newNode = new Node(); // 1. Mengalokasikan memori untuk node baru
     }
 };
 
