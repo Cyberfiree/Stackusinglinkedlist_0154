@@ -32,6 +32,15 @@ public:
         cout << "Push value :" << value << endl; // Mencetak nilai yang dipush ke stack
         return value;
     }
+
+    // Operasi pop: Menghapus elemen teratas dari stack
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack kosong." << endl;
+        }
+    }
+
+
 };
 
 int main()
