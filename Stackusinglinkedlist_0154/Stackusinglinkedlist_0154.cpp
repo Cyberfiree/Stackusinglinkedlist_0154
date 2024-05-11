@@ -58,7 +58,9 @@ public:
         }
     }
 
-
+    // Operasi isEmpty: Memeriksa apakah stack kosong
+    bool isEmpty() {
+    }
 };
 
 int main()
