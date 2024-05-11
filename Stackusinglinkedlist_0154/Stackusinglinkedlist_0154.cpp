@@ -60,6 +60,7 @@ public:
 
     // Operasi isEmpty: Memeriksa apakah stack kosong
     bool isEmpty() {
+        return top == NULL;     // Mengembalikan true jika pointer top adalah NULL, menandakan stack kosong
     }
 };
 
